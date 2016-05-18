@@ -2,7 +2,7 @@
 
 // *****需要php安装mcrypt插件
 
-// 调用方法  $key需要替换成开发者自己的AppSecret
+// 调用方法  $key需要替换成开发者自己的AppSecret  
 $key = "273d7e70c2d115e62e0e45656ff82b39";  
 $aes = new AesEncrypt($key);  
 
